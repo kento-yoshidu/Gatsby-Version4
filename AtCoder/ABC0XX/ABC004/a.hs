@@ -1,8 +1,7 @@
 -- https://atcoder.jp/contests/abc004/tasks/abc004_1
 
 fn :: Int -> Int
-fn n =
-    n * 2
+fn = (*2)
 
 main :: IO ()
 main = do

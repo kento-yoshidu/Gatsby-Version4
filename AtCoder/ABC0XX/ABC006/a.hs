@@ -1,10 +1,9 @@
 -- https://atcoder.jp/contests/abc006/tasks/abc006_1
 
+import Data.Bool (bool)
+
 fn :: Int -> String
-fn n =
-    if n `mod` 3 == 0
-        then "YES"
-        else "NO"
+fn = bool "NO" "YES" . (==0) . (`mod` 3)
 
 main :: IO ()
 main = do
