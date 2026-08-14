@@ -1,8 +1,7 @@
 -- https://atcoder.jp/contests/abc005/tasks/abc005_1
 
 fn :: Int -> Int -> Int
-fn x y =
-    y `div` x
+fn = flip div
 
 main :: IO ()
 main = do

@@ -1,8 +1,7 @@
 -- https://atcoder.jp/contests/abc002/tasks/abc002_1
 
 fn :: Int -> Int -> Int
-fn x y =
-    max x y
+fn = max
 
 main :: IO ()
 main = do
